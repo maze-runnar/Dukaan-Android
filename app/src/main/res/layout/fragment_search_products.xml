@@ -3,10 +3,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".search.SearchProducts">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".search.SearchProductsFragment">
 
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:layout_marginStart="30dp"
+       android:textSize="20dp"
+       android:hint="Search Products ..."
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_weight="1"
+       android:id="@+id/tvSearchTerm"
+       />
 
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toEndOf="@+id/tvSearchTerm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/rvProducts"
+        android:src="@drawable/ic_search_icon"
+        />
 
-
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/rvProducts"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/tvSearchTerm"
+         app:layout_constraintVertical_weight="9"
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
