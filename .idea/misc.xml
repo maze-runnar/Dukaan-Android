@@ -5,10 +5,12 @@
       <map>
         <entry key="app/src/main/res/drawable/button_shape.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/login_selector_button.xml" value="0.2140625" />
-        <entry key="app/src/main/res/layout/activity_customer_login.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_dashboard_merchant.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/button_layout.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_search_products.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/product_items.xml" value="0.22" />
       </map>
     </option>
   </component>

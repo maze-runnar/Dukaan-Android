@@ -10,12 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".DashboardMerchant"
+            android:exported="true" />
+        <activity
             android:name=".MerchantLoginActivity"
             android:exported="true" />
-       <activity
-           android:name=".CustomerLoginActivity"
+        <activity
+            android:name=".CustomerLoginActivity"
             android:exported="true" />
-      
         <activity
             android:name=".LoginActivity"
             android:exported="true">
